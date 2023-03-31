@@ -2,7 +2,7 @@
   "name": "muminshop",
   "version": "1.0.0",
   "description": "headless wordpress webshop",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "test": "dev"
   },
