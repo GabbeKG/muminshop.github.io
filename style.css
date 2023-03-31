@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&family=Space+Mono&display=swap");
+
+body {
+  position: relative;
+  text-align: center;
+}
+body:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  align-content: center;
+  width: 100%;
+}
+body {
+  display: inline-block;
+  vertical-align: middle;
+  align-content: center;
+}
+#header {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+#title {
+  padding: 50% auto;
+}
+#pageName {
+  text-align: center;
+  padding: 200px;
+  font-family: "Space Mono", monospace;
+  font-family: "Metamorphous", cursive;
+  color: #3766cc;
+  text-shadow: -1px -1px #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+#menu {
+}
+#menu li {
+  display: inline-block;
+  padding: 20px;
+}
+#menu li:hover {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+#wrapper {
+  margin: 0 auto;
+}
+#wrapper p {
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+
+#productlist {
+  display: flex;
+  width: 210px;
+}
+#productlist li {
+  margin: 10px;
+}
+.productName {
+  height: 50px;
+}
+.card {
+}
+.productImg {
+  height: 300px;
+}

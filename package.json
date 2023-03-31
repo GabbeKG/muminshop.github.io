@@ -1,0 +1,11 @@
+{
+  "name": "muminshop",
+  "version": "1.0.0",
+  "description": "headless wordpress webshop",
+  "main": "script.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": "Gabriel Karlsson Gonzalez",
+  "license": "ISC"
+}
